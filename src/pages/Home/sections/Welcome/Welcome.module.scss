@@ -1,0 +1,141 @@
+@use "../../../../styles/variables.scss" as vars;
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1b43328a; //change
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: vars.$padding_x;
+}
+
+
+.content {
+    text-align: center;
+    color: vars.$color_light;
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &>h1 {
+        font-family: "Montserrat";
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.action {
+    margin-top: 40px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    background: none;
+    border: 1px solid vars.$color_light;
+    color: vars.$color_light;
+    transition: 0.2s;
+    font-size: 1rem;
+
+
+
+    &:hover {
+        box-shadow: #dee2b165 0px 5px 15px;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+.layers {
+    perspective: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    height: 100vh;
+    transform-style: preserve-3d;
+    transform: rotateX(var(--move-y)) rotateY(var(--move-x));
+    will-change: transform;
+    transition: transform 1.5s cubic-bezier(.05, .50, 0, 1);
+}
+
+.layersItem {
+    position: absolute;
+    inset: -5vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layer1 {
+    background-image: url('/src/assets/welcomeBg/layer-1.jpg');
+    transform: translateZ(-55px) scale(1.06);
+}
+
+.layer2 {
+    background-image: url('/src/assets/welcomeBg/layer-2.png');
+    transform: translateZ(80px) scale(.9);
+}
+
+.layer3 {
+    transform: translateZ(180px) scale(.9);
+}
+
+.layer4 {
+    background-image: url('/src/assets/welcomeBg/layer-4.png');
+    transform: translateZ(300px) scale(.9);
+}
+
+.layer4,
+.layer5,
+.layer6 {
+    pointer-events: none;
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+    .content {
+        font-size: 1.2rem;
+    }
+
+    .action {
+        padding: 10px 30px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .content {
+        font-size: 1rem;
+    }
+    .action {
+        padding: 7px 20px;
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:575px){
+    .content {
+        font-size: 1rem;
+        line-height: 40px;
+    }
+    .title{
+        & > span {
+            display: block;
+        }
+    }
+    .subtitle{
+        font-size: 0.8rem;
+    }
+    .action {
+        padding: 7px 20px;
+        font-size: 0.7rem;
+    }
+}
