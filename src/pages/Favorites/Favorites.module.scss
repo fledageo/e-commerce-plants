@@ -1,0 +1,38 @@
+@use "/src/styles/variables.scss" as vars;
+
+.wrapper {
+    padding: 100px vars.$padding_x;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: vars.$color_dark;
+}
+.previous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: 0.2s;
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+.favorites {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    gap: 20px ;
+    justify-content: space-around;
+}

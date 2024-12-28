@@ -1,11 +1,11 @@
-import { useEffect } from 'react'
 import styles from './Shop.module.scss'
+import { useEffect } from 'react'
 import { useAppDispatch, useAppSelector } from '../../../../store/store'
-import { setProducts } from '../../../../store/actions'
 import { Product } from '../../../../components/simple/Product/Product'
+import { setProducts } from '../../../../features/products/productsSlice'
 
 export const Shop = () => {
-    const products = useAppSelector(state => state.products)
+    const products = useAppSelector(state => state.products.products)
     const dispatch = useAppDispatch()
 
     useEffect(() => {
@@ -15,8 +15,9 @@ export const Shop = () => {
                 dispatch(setProducts(res.products))
             })
     }, [])
+    
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id='store'>
             <div className={styles.container}>
                 <div className={styles.title}>
                     <h2>Plants</h2>
@@ -29,7 +30,7 @@ export const Shop = () => {
                 <div className={styles.products}>
                     <div className={styles.grid_container}>
                         {
-                            products.map(item => <Product item={item}/>)
+                            products.map(item => <Product item={item} key={item.id}/>)
                         }
                     </div>
                 </div>

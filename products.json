@@ -1,124 +1,95 @@
 {
     "products": [
-        {
-            "id": 1,
-            "name": "Aloe Vera",
-            "price": 10.49,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Snake Plant",
-            "price": 11.99,
-            "image": "https://i.pinimg.com/736x/57/ec/f5/57ecf5d01cbe0f79387bfbfa83bb17f4.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Spider Plant",
-            "price": 13.49,
-            "image": "https://i.pinimg.com/736x/be/20/34/be2034fe17d4c3dc17c72739a62c8e1d.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Jade Plant",
-            "price": 14.99,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Peace Lily",
-            "price": 16.49,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Bamboo Palm",
-            "price": 17.99,
-            "image": "https://i.pinimg.com/736x/b5/83/7b/b5837b8ce4bcdfeebbeaa93cdfb2dcf7.jpg"
-        },
-        {
-            "id": 7,
-            "name": "English Ivy",
-            "price": 19.49,
-            "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Rubber Plant",
-            "price": 20.99,
-            "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg"
-        },
-        {
-            "id": 9,
-            "name": "ZZ Plant",
-            "price": 22.49,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Fiddle Leaf Fig",
-            "price": 23.99,
-            "image": "https://i.pinimg.com/736x/b5/83/7b/b5837b8ce4bcdfeebbeaa93cdfb2dcf7.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Areca Palm",
-            "price": 25.49,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Boston Fern",
-            "price": 26.99,
-            "image": "https://i.pinimg.com/736x/62/fc/45/62fc45e24bedb3c902ecb3fe954113e1.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Money Tree",
-            "price": 28.49,
-            "image": "https://i.pinimg.com/736x/57/ec/f5/57ecf5d01cbe0f79387bfbfa83bb17f4.jpg"
-        },
-        {
-            "id": 14,
-            "name": "Pothos",
-            "price": 29.99,
-            "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg"
-        },
-        {
-            "id": 15,
-            "name": "Lavender",
-            "price": 31.49,
-            "image": "https://i.pinimg.com/736x/62/fc/45/62fc45e24bedb3c902ecb3fe954113e1.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Rosemary",
-            "price": 32.99,
-            "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg"
-        },
-        {
-            "id": 17,
-            "name": "Basil",
-            "price": 34.49,
-            "image": "https://i.pinimg.com/736x/b5/83/7b/b5837b8ce4bcdfeebbeaa93cdfb2dcf7.jpg"
-        },
-        {
-            "id": 18,
-            "name": "Thyme",
-            "price": 35.99,
-            "image": "https://i.pinimg.com/736x/57/ec/f5/57ecf5d01cbe0f79387bfbfa83bb17f4.jpg"
-        },
-        {
-            "id": 19,
-            "name": "Mint",
-            "price": 37.49,
-            "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg"
-        },
-        {
-            "id": 20,
-            "name": "Marigold",
-            "price": 38.99,
-            "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg"
-        }
+      {
+        "id": 1,
+        "name": "Aloe Vera",
+        "price": 10.49,
+        "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae neque at lorem scelerisque suscipit. Sed ultricies ligula ac est vehicula bibendum."
+      },
+      {
+        "id": 2,
+        "name": "Snake Plant",
+        "price": 11.99,
+        "image": "https://i.pinimg.com/736x/57/ec/f5/57ecf5d01cbe0f79387bfbfa83bb17f4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis lacus sit amet purus vehicula, a efficitur odio rhoncus. Integer facilisis orci at nisi."
+      },
+      {
+        "id": 3,
+        "name": "Spider Plant",
+        "price": 13.49,
+        "image": "https://i.pinimg.com/736x/be/20/34/be2034fe17d4c3dc17c72739a62c8e1d.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu velit tincidunt, viverra lectus vitae, maximus metus. Proin vitae orci in eros fringilla viverra."
+      },
+      {
+        "id": 4,
+        "name": "Jade Plant",
+        "price": 14.99,
+        "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae felis et lacus tristique feugiat. Duis non ipsum tristique, bibendum lectus sit amet, vehicula."
+      },
+      {
+        "id": 5,
+        "name": "Peace Lily",
+        "price": 16.49,
+        "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sem nec odio fermentum volutpat. Aenean nec mauris ac lorem bibendum fermentum et at erat."
+      },
+      {
+        "id": 6,
+        "name": "Bamboo Palm",
+        "price": 17.99,
+        "image": "https://i.pinimg.com/736x/b5/83/7b/b5837b8ce4bcdfeebbeaa93cdfb2dcf7.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique lectus eget sem eleifend congue. Cras eget sapien a libero eleifend consectetur. Nulla facilisi."
+      },
+      {
+        "id": 7,
+        "name": "English Ivy",
+        "price": 19.49,
+        "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut rhoncus tristique."
+      },
+      {
+        "id": 8,
+        "name": "Rubber Plant",
+        "price": 20.99,
+        "image": "https://i.pinimg.com/736x/24/aa/f9/24aaf9d997f7830eff1f45dcb67d6296.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada purus at lectus varius, a cursus risus eleifend. Donec non erat et enim accumsan."
+      },
+      {
+        "id": 9,
+        "name": "ZZ Plant",
+        "price": 22.49,
+        "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a mauris ut libero volutpat vehicula at nec purus. Fusce id turpis vel est porttitor."
+      },
+      {
+        "id": 10,
+        "name": "Fiddle Leaf Fig",
+        "price": 23.99,
+        "image": "https://i.pinimg.com/736x/b5/83/7b/b5837b8ce4bcdfeebbeaa93cdfb2dcf7.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor velit at sapien elementum pharetra. Nunc mollis leo ac dolor facilisis, non vehicula sapien."
+      },
+      {
+        "id": 11,
+        "name": "Areca Palm",
+        "price": 25.49,
+        "image": "https://i.pinimg.com/736x/a4/34/57/a434577bf5e872fad38d3901d7e5c643.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat ligula id metus pharetra, vitae feugiat erat interdum. In placerat orci id nulla sollicitudin."
+      },
+      {
+        "id": 12,
+        "name": "Boston Fern",
+        "price": 26.99,
+        "image": "https://i.pinimg.com/736x/62/fc/45/62fc45e24bedb3c902ecb3fe954113e1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec arcu eu turpis porttitor volutpat non sed elit. Nulla facilisi. Integer vitae nibh vestibulum."
+      },
+      {
+        "id": 13,
+        "name": "Money Tree",
+        "price": 28.49,
+        "image": "https://i.pinimg.com/736x/57/ec/f5/57ecf5d01cbe0f79387bfbfa83bb17f4.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada mi vel enim sollicitudin, in auctor nunc accumsan. Curabitur ultricies velit sit amet arcu."
+      }
     ]
-}
+  }

@@ -1,0 +1,149 @@
+@use "/src/styles/variables.scss" as vars;
+
+.wrapper {
+    padding: 100px vars.$padding_x;
+    color: vars.$color_dark;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: vars.$color_dark;
+}
+
+.previous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+
+//items
+.basket {
+    display: flex;
+}
+
+.basket_products {
+    width: 70%;
+    padding: 0 50px;
+}
+
+.item {
+    // background-color: aquamarine;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #D8F3DC; //change
+}
+
+.product {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &>img {
+        height: 100%;
+    }
+}
+
+
+.amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item_amount {
+    width: 20px;
+    text-align: center;
+}
+
+.changeAmount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+.item_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_remove {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 50%;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+//summary
+.basket_summary {
+    width: 30%;
+    height: fit-content;
+    background-color: #D8F3DC;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.order_total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    border-top: 1px solid #1B4332;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.total_text {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
